@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="navbar">
+         <img src="images\Screenshot 2024-08-13 213329.png" alt="Notemate" style="margin-top: 22px; position:absolute; left:13px;">
+        <div class="navbar-links  falselinks">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="addnotes.html">Add notes</a></li>
+                <li><a href="searchnotes.html">Search notes</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html" style="color: #54a3e4;">Signup</a></li>
+                 
+            </ul>
+        </div>
+    </nav>
+    <!-- swiper -->
+     <!-- Slider main container -->
+     <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide" data-swiper-autoplay="2000"></div>
+          <div class="swiper-slide" data-swiper-autoplay="2000"></div>
+          <div class="swiper-slide" data-swiper-autoplay="2000"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <!-- down the page -->
+     <div class="down-the-page">
+    <div class="imagebox1">
+        <div class="backgroundimg1"></div>
+        <div class="text1"></div>
+    </div>
+    <div class="imagebox2">
+        <div class="backgroundimg2"></div>
+        <div class="text2"></div>
+    </div>
+    <div class="imagebox3">
+        <div class="backgroundimg3"></div>
+        <div class="text3"></div>
+    </div>
+</div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <!-- About Us -->
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <p>We are a team of passionate developers committed to creating beautiful and functional websites. Our mission is to provide top-notch web solutions that meet your needs.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-gmail"></i></a>
+
+                    </div>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <p>Upperpally , Hyderguda <br>Hyderabad, India 500048</p>
+                    <p>Email: sailajapuvala5125@gmail.com</p>
+                    <p>Phone: +91 6302259493</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="mwt"> Made with &hearts;</p>
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+          
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                autoplay:true,
+                effect:'coverflow',
+                control:'any',
+                slidesPerView:'auto',
+                coverflowEffect:{
+                    rotate:50,
+                    stretch:0,
+                    depth:100,
+                    modifier:0.5,
+                  slideShadows:true,                                  
+                },
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                  clickable:false                  
+                },  
+              });
+          
+    </script>
+
+   <script src="login.js"></script>
+</body>
+</html>

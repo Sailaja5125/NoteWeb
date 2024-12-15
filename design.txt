@@ -1,0 +1,107 @@
+notes app 
+notes sharing platform developed in javascript ,express
+tools : multer , jwt 
+functionality
+user logins ,
+user can upload files or access the files 
+pages 
+1. index show case 
+2. notes 
+                    
+                                    year
+                                      |
+                                  subjects
+                        ______________|________________
+                        |             |                |       
+                    *notes        prevyears        textbooks*
+css use bootstrap
+
+backend
+--> models
+   1. user
+      ->  username 
+      ->  email
+      ->  password
+      ->  phonenumber
+   2.login
+      -> email or username
+      -> password
+   2. notes 
+      ->year 
+      ->subject 
+      ->title
+      ->files
+db connection
+middleware -> login middleware , file uploading  
+utils -> async handlers , responseApi , errorhandiling 
+and save it in firebase -- video is there 
+routes
+
+// dates
+day 1: refer to backend and set up every thing from the previous project create mongodb models 
+day 2: authentication and middlewares work on firebase and multer -- debugging
+day 3: work on firebase and multer -- debugging
+day 4: work on firebase and multer -- debugging 
+day 5: work on firebase and multer -- debugging 
+day 6: functionalities and testing -- complete backend
+
+// 
+day 8: designing 
+day 9: start frontend development 
+....continue after mids 
+
+
+// index page 
+--> navbar >home >notes >subscribe
+home page 
+ 1. big image with autotyped text 
+ 2. information about website notes app ke bare 
+ 3. footer privacy policy etc 
+ 4. 
+
+ notes 
+ 1. upload notes 
+ 2. fill details title subject chapter
+ 3. middle navbar  years  1  2  3  4 
+ 4. subjects of respective clicked years modal buttons 
+ 5. on clicked subject available chapter notes cards 
+ 6. on clicked notes cards you directly reach to drive file where you can download notes
+
+
+.. chutku mutku functionalities lets see later ..
+
+->frontend 
+1. index page 
+  -> navbar
+    - searchnotes - add notes -login  -signup 
+  ->corrousal dynamic images about adding notes and about notes 
+  ->more about uses of a notes application for engineering students == textbooks , handwritten-notes , chapterwise or all at once ,previous years question papers.
+  ->important subjects notes --dbms , --operating-system ,--computer networks etc
+  ->footer
+2. add notes 
+   add notes , fill details , conform
+3.searchnotes
+  search bar 
+  categories subject , course , chapter
+4.signup form 
+   sideimage , form -- email , password , phonenumber , username
+5.login form
+   sideimage , form -- email , password
+
+----divide----in-----days
+day 1 :
+ design all the pages
+day 2 :
+ code all the pages html and css 
+day 3 :
+ code all the pages html and css
+day 4 :
+ embed javascript
+day 5 :
+ embed javascript
+day 6 :
+ embed javascript
+day 7 :
+ embed javascript and fix errors
+
+ 
