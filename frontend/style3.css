@@ -1,5 +1,4 @@
 body{
-    background-color: #1a1a1a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,9 +11,7 @@ body{
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
     position: relative;
-    background-color: #1a1a1a;
     color: #fff;
-    border: 1px solid #333;
   }
   
 .title {
@@ -81,15 +78,15 @@ body{
   }
   
 .form label .input {
-    background-color: #333;
-    color: #fff;
+    
     width: 100%;
     padding: 20px 5px 5px 10px;
     outline: 0;
     border: 1px solid rgba(105, 105, 105, 0.397);
     border-radius: 10px;
     width: 320px;
-    margin: 5px
+    margin: 5px;
+    color: rgba(105, 105, 105, 0.397);
   }
   
 .form label .input + span {
@@ -101,10 +98,20 @@ body{
     cursor: text;
     transition: 0.3s ease;
   }
-  
+  .signup-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cont{
+    height: 100vh;
+    width: 50vw;
+  }
   .form label .input:placeholder-shown + span {
     top: 12.5px;
     font-size: 0.9em;
+    color: black;
   }
   
   .form label .input:focus + span,

@@ -1,0 +1,86 @@
+.bot-operator{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+.upload-container1 {
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+.chat-bot{
+    width: 60%;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+}
+.icn{
+    width: 10%;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.ans{
+    margin: 15px 15px 15px 15px;
+    overflow-y: scroll;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    text-overflow: ellipsis;
+}
+.msg{
+    font-size: medium;
+}
+.ans::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.ans::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+    border-radius: 5px; /* Optional: Rounded corners for track */
+}
+
+.ans::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Optional: Rounded corners for thumb */
+}
+
+.ans::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the thumb when hovered */
+}
+.drop-zone1 {
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #7B7A8A;
+}
+
+.drop-zone1:hover {
+    background-color: #f0f0f0;
+}
+
+#file-list1 {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#file-list1 li {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/Screenshot_2024-08-13_213329.png" alt="Notemate" style="margin-top: 22px; position:absolute; left:13px;">
+       <div class="navbar-links falselinks">
+           <ul>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+           </ul>
+       </div>
+       <div class="navbar-links">
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="addnotes.html">Add notes</a></li>
+               <li><a href="searchnotes.html">Search notes</a></li>
+               <li><a href="Ml.html">Ai assistants</a></li>
+               <li><a href="login.html">Login</a></li>
+               <li><a href="signup.html" style="color: #54a3e4;">Signup</a></li>
+           </ul>
+       </div>
+   </nav>
+<section class="bot-operator">
+   <div class="upload-container1">
+    <h2>Upload Your Notes</h2>
+    <div class="drop-zone1" id="drop-zone1">
+        <img src="./images/Screenshot_2024-08-13_220353.png" alt="/" style="width: 45px; height:45px;">
+        <p>Drag & Drop or browse</p>
+        <input type="file" id="file-input" multiple hidden>
+    </div>
+    <ul id="file-list1"></ul>
+    <button class="sbnt">Submit</button>
+   </div>
+<div class="chat-bot">
+    <div class="icn">
+        <img src="./images/download-removebg-preview (16).png" alt="" style="width: 60px; height: 60px;">
+    </div>
+    <div class="sec1">
+    <div class="ans" id="chat-output">
+        <p class="output"></p>
+    </div>
+    <input type="text" placeholder="Your Question" class="msg" id="user-query" style="height: 30px; width: 80%;">
+    <button onclick="sendMessage()">Send</button>
+</div>
+</div>
+</section>
+<script src="Ml.js"></script>
+</body>
+</html>
